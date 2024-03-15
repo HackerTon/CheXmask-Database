@@ -111,6 +111,6 @@ if __name__ == "__main__":
         outseg = getDenseMask(RL, LL, H)
 
         cv2.imwrite(
-            image_path.replace(f'.{image_path.split('.')[-1]}', "_mask.png"),
+            image_path.replace(f'.{image_path.split(".")[-1]}', "_mask.png"),
             outseg,
         )
